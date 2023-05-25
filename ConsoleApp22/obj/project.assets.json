@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LibNewCalculation/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net48/LibNewCalculation.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net48/LibNewCalculation.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibNewCalculation/1.1.2": {
+      "sha512": "P22KjaCadW27fdQkPZND6qmPGnVb3/rdXrXZFFS1oeKieYBXUCenoQ1j64+5fVQ5yNsB+SMyFgFyoZVEBxjgHg==",
+      "type": "package",
+      "path": "libnewcalculation/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net48/LibNewCalculation.dll",
+        "lib/net48/LibNewCalculation.pdb",
+        "libnewcalculation.1.1.2.nupkg.sha512",
+        "libnewcalculation.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LibNewCalculation >= 1.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sonali.ambedare\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Sonali\\SourceLinkDemoProject\\ConsoleApp22\\ConsoleApp22.csproj",
+      "projectName": "ConsoleApp22",
+      "projectPath": "D:\\Sonali\\SourceLinkDemoProject\\ConsoleApp22\\ConsoleApp22.csproj",
+      "packagesPath": "C:\\Users\\sonali.ambedare\\.nuget\\packages\\",
+      "outputPath": "D:\\Sonali\\SourceLinkDemoProject\\ConsoleApp22\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sonali.ambedare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\": {},
+        "http://nuget.znode.amla.io:88/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Sonali-Ambedare-amla/download": {},
+        "https://nuget.znode.com/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "LibNewCalculation": {
+            "target": "Package",
+            "version": "[1.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.znode.amla.io:88/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LibNewCalculation 1.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LibNewCalculation",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
